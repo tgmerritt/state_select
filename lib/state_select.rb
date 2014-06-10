@@ -53,7 +53,7 @@ module ActionView::Helpers::FormOptionsHelper
     "Strathclyde", "Suffolk", "Surrey", "Tayside", "Tyne and Wear",
     "Warwickshire", "West Glamorgan", "West Midlands", "West Sussex",
     "West Yorkshire", "Wiltshire", "Worcestershire"
-  ] unless const_defined?("UK_STATES")
+  ] unless const_defined?("GB_STATES")
 
   # India
   IN_STATES = [
