@@ -54,28 +54,32 @@ module ActionView::Helpers::FormOptionsHelper
     "West Yorkshire", "Wiltshire", "Worcestershire"
   ] unless const_defined?("UK_STATES")
 
-  INDIA_STATES = [
+  # India
+  IN_STATES = [
     "Andhra Pradesh",  "Arunachal Pradesh",  "Assam", "Bihar",
     "Chhattisgarh", "New Delhi", "Goa", "Gujarat", "Haryana",
     "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka",
     "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya",
     "Mizoram", "Nagaland", "Orissa", "Punjab", "Rajasthan", "Sikkim",
     "Tamil Nadu", "Tripura", "Uttaranchal", "Uttar Pradesh", "West Bengal"
-  ] unless const_defined?("INDIA_STATES")
+  ] unless const_defined?("IN_STATES")
 
-  CANADA_STATES = [
+  # Canada
+  CA_STATES = [
     "Alberta", "British Columbia", "Manitoba", "New Brunswick",
     "Newfoundland", "Northwest Territories", "Nova Scotia", "Nunavut",
     "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"
-  ] unless const_defined?("CANADA_STATES")
+  ] unless const_defined?("CA_STATES")
 
-  AUSTRALIA_STATES = [
+  # Australia
+  AU_STATES = [
     "Australian Capital Territory", "New South Wales", "Northern Territory",
     "Queensland", "South Australia", "Tasmania", "Victoria",
     "Western Australia"
-  ] unless const_defined?("AUSTRALIA_STATES")
+  ] unless const_defined?("AU_STATES")
 
-  SPAIN_STATES = [
+  # Spain
+  ES_STATES = [
       "Alava", "Albacete", "Alicante", "Almeria", "Asturias", "Avila",
       "Badajoz", "Barcelona", "Burgos", "Caceres", "Cadiz", "Cantrabria",
       "Castellon", "Ceuta", "Ciudad Real", "Cordoba", "Cuenca", "Girona",
@@ -86,9 +90,10 @@ module ActionView::Helpers::FormOptionsHelper
       "Santa Cruz de Tenerife", "Segovia", "Sevila", "Soria", "Tarragona",
       "Teruel", "Toledo", "Valencia", "Valladolid", "Vizcaya", "Zamora",
       "Zaragoza"
-    ] unless const_defined?("SPAIN_STATES")
+    ] unless const_defined?("ES_STATES")
 
-  UGANDA_STATES = [
+  # Uganda
+  UG_STATES = [
     "Abim", "Adjumani", "Amolatar", "Amuria", "Apac", "Arua", "Budaka",
     "Bugiri", "Bukwa", "Bulisa", "Bundibugyo", "Bushenyi", "Busia", "Busiki",
     "Butaleja", "Dokolo", "Gulu", "Hoima", "Ibanda", "Iganga", "Jinja",
@@ -101,45 +106,50 @@ module ActionView::Helpers::FormOptionsHelper
     "Nakapiripirit", "Nakaseke", "Nakasongola", "Nebbi", "Ntungamo", "Oyam",
     "Pader", "Pallisa", "Rakai", "Rukungiri", "Sembabule", "Sironko",
     "Soroti", "Tororo", "Wakiso", "Yumbe"
-  ] unless const_defined?("UGANDA_STATES")
-
-  FRANCE_STATES = [
+  ] unless const_defined?("UG_STATES")
+  
+  # France
+  FR_STATES = [
     "Alsace", "Aquitaine", "Auvergne", "Bourgogne", "Bretagne", "Centre",
     "Champagne-Ardenne", "Corse", "Franche-Comte", "Ile-de-France",
     "Languedoc-Roussillon", "Limousin", "Lorraine", "Midi-Pyrenees",
     "Nord-Pas-de-Calais", "Basse-Normandie", "Haute-Normandie",
     "Pays de la Loire", "Picardie", "Poitou-Charentes",
     "Provence-Alpes-Cote d'Azur", "Rhone-Alpes"
-  ] unless const_defined?("FRANCE_STATES")
+  ] unless const_defined?("FR_STATES")
 
-  GERMANY_STATES = [
+  # Germany
+  DE_STATES = [
     "Baden-Wurttemberg", "Bayern", "Berlin", "Brandenburg", "Bremen",
     "Hamburg", "Hessen", "Mecklenburg-Vorpommern", "Niedersachsen",
     "Nordrhein-Westfalen", "Rhineland-Pflaz", "Saarland", "Sachsen",
     "Sachsen-Anhalt", "Schleswig-Holstein", "Thuringen"
-  ]  unless const_defined?("GERMANY_STATES")
+  ]  unless const_defined?("DE_STATES")
 
-  NETHERLANDS_STATES = [
+  # Netherlands
+  NL_STATES = [
     "Drenthe", "Flevoland", "Friesland", "Gelderland", "Groningen",
     "Limburg", "Noord-Brabant", "Noord-Holland", "Overijssel", "Utrecht",
     "Zeeland", "Zuid-Holland"
-  ] unless const_defined?("NETHERLANDS_STATES")
+  ] unless const_defined?("NL_STATES")
 
-  MEXICO_STATES = [
+  # Mexico
+  MX_STATES = [
     "Aguascalientes", "Baja Californi", "Baja California Sur",
     "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango",
     "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "México", "Michoacán",
     "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro",
     "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco",
     "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas"
-  ] unless const_defined?("MEXICO_STATES")
+  ] unless const_defined?("MX_STATES")
 
-  POLAND_STATES = [
+  # Poland
+  PL_STATES = [
     "dolnośląskie", "kujawsko-pomorskie", "lubelskie", "lubuskie", "łódzkie",
     "małopolskie", "mazowieckie", "opolskie", "podkarpackie", "podlaskie",
     "pomorskie", "śląskie", "świętokrzyskie", "warmińsko-mazurskie",
     "wielkopolskie", "zachodniopomorskie"
-  ] unless const_defined?("POLAND_STATES")
+  ] unless const_defined?("PL_STATES")
 end
 
 class ActionView::Helpers::InstanceTag
