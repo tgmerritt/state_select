@@ -1,3 +1,6 @@
+Refactored by [danijel] to use country codes instead of full names, easier to use with country_select,
+added rescue from NameError if no states array for requested country exists
+
 # StateSelect
 
 `state_select` plugin allows you to easily create dropdown list of states for a country provided as an option.

@@ -14,8 +14,13 @@ module ActionView::Helpers::FormOptionsHelper
 
   def state_options_for_select(selected = nil, country = 'US')
     state_options = "".html_safe
+    begin
+      states = eval(country.upcase+'_STATES')
+    rescue NameError
+      country = nil
+    end
     if country
-      state_options += options_for_select(eval(country.upcase+'_STATES'), selected)
+      state_options += options_for_select(states, selected)
     end
     return state_options
   end
