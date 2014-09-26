@@ -14,7 +14,7 @@ Default country is US.
 Currently it supports:
 
 * INDIA,
-* US,
+* US (Long and Short Names),
 * UK,
 * CANADA,
 * AUSTRALIA,
@@ -24,6 +24,7 @@ Currently it supports:
 * GERMANY,
 * NETHERLANDS,
 * MEXICO,
+* JAPAN,
 * POLAND.
 
 ## Compatibility
@@ -38,12 +39,3 @@ Currently it supports:
 * Thanks Jonathan Tron for French states
 * Thanks [Gavin Morrice](http://handyrailstips.com/) for UK States
 * Thanks [Filip Tepper](http://tepper.pl/) for Polish States
-
-If you want to add other country please send me the list of states and I will add them, or you can fork and make a pull request.
-
-## Author
-
-Akhil Bansal,
-[bansalakhil30.10@gmail.com](mailto:bansalakhil30.10@gmail.com),
-[http://webonrails.com/](http://webonrails.com/),
-New Delhi, India
