@@ -28,7 +28,7 @@ Currently it supports:
 
 ## Compatibility
 
-`state_select` works with Rails 2.3, 3.0 and 3.1.
+`state_select` works with Rails 2.3, 3.0, 3.1 and 3.2.
 
 ## Contributors
 
